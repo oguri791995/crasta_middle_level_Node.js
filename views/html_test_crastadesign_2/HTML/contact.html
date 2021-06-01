@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="../CSS/contact.css">
+</head>
+<body>
+    <header>
+        <div class="header-inner">
+            <div class="top-line">
+                <div class="header-title" id="header-title">
+                    <a href="/">Crasta Design</a>
+                </div>
+                <nav class="displayNone-sp">
+                    <ul class="nav-wrapper ">
+                        <li class="nav-item ">
+                            <a href="/#concept">Concept</a>
+                        </li>
+                        <li class="nav-item ">
+                            <a href="/#service">Service</a>
+                        </li>
+                        <li class="nav-item ">
+                            <a href="/#works">Works</a>
+                        </li>
+                        <li class="nav-item ">
+                            <a href="/#contact">Contact</a>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="humberger">
+                    <span class="top-bar"></span>
+                    <span class="middle-bar"></span>
+                    <span class="bottom-bar"></span>
+                </div>
+            </div>
+            <div class="header-text">
+                <div class="title">Contact</div>
+                 <div class="header-end-title">Contact us</div>    
+            </div>
+        </div>
+        <div class="header-img">
+            <img src="../images/contact-page-bgi@2x.jpg" alt="">
+        </div>
+    </header>
+    <main>
+        <div class="contact-inner">
+            <form action="" method="post">
+                <div class="first">
+                    <label for="" class="contact-title block">お問い合わせ内容</label><br>
+                    <label for="Document" class="contact-item"><input type="radio" id="Document" name="contact-type" value="document" checked>資料請求</label><br class="br-sp">
+                    <label for="tel" class="contact-item"><input type="radio" id="tel" name="contact-type" value="tel">お電話でのご相談を希望</label><br class="br-sp">
+                    <label for="application" class="contact-item"><input type="radio" id="application" name="contact-type" value="application">申し込み</label><br class="br-sp">
+                    <!-- <label for="">
+                        <select name="contact-type" id="">
+                            <option value="document">資料請求</option>
+                            <option value="tel-contact">お電話でのご相談を希望</option>
+                            <option value="application">申し込み</option>
+                        </select>
+                    </label> -->
+                    <br>    
+                </div>
+                <label for="" class="content block">担当者名</label><br>
+                <input type="text" style="width: 100%;" name="name">
+                <label for=""class="content block">電話番号</label>
+                <input type="tel" style="width: 100%;" name="tel-number">
+                <label for="" class="content block">メールアドレス</label>
+                <input type="e-mail" style="width: 100%;" name="e-mail">
+                <label for=""class="content block">その他</label>
+                <textarea name="content" id="" cols="30" rows="10" style="width:100%" name="content"></textarea>
+                <label for="" class="submit block"><input type="submit" value="Submit" class="submit-btn">
+                </label>
+            </form>
+        </div>
+    </main>
+    <footer>
+        <div class="footer-text">&copy;cresta.design all rights reserved</div>
+    </footer>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script type="text/javascript" src="../JS/contact.js"></script>
+</body>
+</html>

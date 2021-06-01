@@ -1,0 +1,116 @@
+/* base */
+html{
+    font-size: 62.5%;
+}
+body{
+    font-size: 1.6rem;
+    letter-spacing: .05em;
+    color: #171717;
+    font-family: "Noto Serif","Noto serif",serif;
+}
+img{
+    width: 100%;
+    vertical-align: bottom;
+}
+.section-wrapper{
+    padding: 100px 0 70px;
+}
+.section-title{
+    max-width: 1000px;
+    color: #282f35;
+    font-size: 60px;
+    font-style: italic;
+    margin: 0 auto 80px;
+    padding: 0 20px;
+}
+.section-title::after{
+    content: "";
+    background-color: #282f35;
+    display: inline-block;
+    width: 200px;
+    height:5px ;
+    margin-left: 30px;
+    vertical-align: middle;
+}
+.section-inner{
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 50px;
+}
+.section-bottom{
+    max-width: 1200px;
+    margin: 0 auto;
+    font-size: 9rem;
+    opacity: .05;
+}
+.link-btn{
+    display: block;
+    width: 235px;
+    line-height: 60px;
+    margin: 0 auto 70px;
+    background-color: #f7d43f;
+    box-shadow: 0 0 6px #1b1310;
+    border-radius: 30px;
+    text-align: center;
+    color: #171717;
+    font-weight: bold;
+    text-decoration: none;
+    transition: .3s;
+}
+.link-btn:hover{
+    opacity: .7;
+    transition: .3s;
+}
+
+/* header */
+.header{
+    padding: 19px 30px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    box-sizing: 100%;
+    width: 100%;
+}
+.header-inner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.header a{
+    color: #fff;
+    text-decoration: none;
+    transition: .3s;
+    font-weight: bold;
+    font-style: italic;
+}
+.header a:hover{
+    opacity: .7;
+    transition: .3s;
+}
+.site-title{
+    font-size: 2.6rem;
+}
+.nav-list{
+    display: flex;
+}
+.nav-item{
+    margin-right: 30px;
+}
+.nav-item:last-of-type{
+    margin-right: 0;
+}
+.burger-btn{
+    display: none   ;
+}
+/* fv */
+.fv{
+    height: 100vh;
+    min-height: 550px;
+    position: relative;
+    /* background-image: url("../images/fv-bgi_01@2x.jpg"); */
+    background-size: cover;
+    background-position:center;
+}

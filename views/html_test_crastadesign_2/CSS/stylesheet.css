@@ -1,0 +1,342 @@
+body,
+div,
+h1,
+h2{
+    margin:0;
+    padding:0;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+}
+body{
+    /* max-width: 1440px; */
+    /* width: auto; */
+    /* margin: 0 auto;
+    padding: 0 auto; */
+    /* background-size: 100%; */
+    font-family: Noto Serif;
+}
+/* header */
+header{
+    color: #fff;
+    /* margin: 0; */
+    background-image: url("../images/fv-bgi_01@2x.jpg");
+    width: 100%;
+    height: 752px;
+    margin: 0 auto;
+    background-size: cover;
+}
+.header{
+    padding-left: 120px;
+}
+.top{
+    display: flex;
+    justify-content: space-between;
+    padding: 19px 0px 0 0px;
+    margin-right: 120px;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.title-text{
+    font-size: 26px;
+    font-family: Noto Serif;
+    font-weight: bold;
+    font-style: italic;
+}
+.title-text:hover{
+    opacity: 0.7;
+    transition: 0.3s;
+}
+ul{
+    list-style: none;
+    display: flex;
+}
+li{
+    padding-left: 35px;
+    font-size: 16px;
+}
+.nav-content{
+    font-size: 16px;
+    font-style: italic;
+    font-weight: bold;
+}
+.nav-content:hover{
+    opacity: 0.7;
+    transition: 0.3s;
+}
+.first-view{
+    margin-top: 354px;
+    margin-bottom: 0;
+    display: inline-block;
+}
+.fv-title{
+    font-size: 70px;
+    font-weight: bold;
+}
+.fv-sub-title{
+    font-size: 40px;
+    font-weight: bold;
+    margin:0;
+    padding:0;
+    text-align: center;
+    font-family: Noto Serif JP;
+}
+/* section */
+section{
+    clear: both;
+}
+/* concept */
+.concept{
+  margin: 99px 158px 73px 220px;  
+}
+.concept-title{
+    font-size: 60px;
+    color: #282F35;
+    font-weight: bold;
+    font-style: italic;
+    display: flex;
+    align-items: center;
+}
+.concept-title::after{
+    border-top: 5px solid;
+    content: "";
+    width: 200px;
+    margin-left: 50px;
+}
+.concept-sub-title{
+    /* display: flex; */
+    text-align: center;
+}
+.concept-sub-title-coment{
+    font-size: 30px;
+    font-weight: bold;
+    color: #171717;
+    margin-top: 73px;
+}
+.concept-content{
+    display: flex;
+    flex-wrap: wrap;
+}
+.concept-content .coment{
+    font-size: 16px;
+    font-weight: bold;
+    max-width: 440px;
+    margin:107px 120px 0 0;
+}
+.concept-img{
+    margin-top: 60px;
+}
+.concept-end-title{
+    font-size: 90px;
+    font-weight: bold;
+    color: #171717;
+    float: right;
+    margin-top: 69px;
+    opacity: 5%;
+}
+/* works */
+.works{
+    background-image: url("../images/works-bgi@2x.jpg");
+    height: 986px;
+}
+.works-title{
+    font-size: 60px;
+    font-style: italic;
+    font-weight: bold;
+    color: #fff;
+    float: right;
+    margin: 103px 100px 83px 0px;
+    display: flex;
+    align-items: center;
+}
+.works-title::after{
+    border-top: 5px solid;
+    content: "";
+    width:200px;
+    margin:0 0px 0 66px;
+}
+.works-list{
+    clear: both;    
+    justify-content: center;
+
+}
+.works-item{
+    max-width: 320px;
+    width: 100%;
+    margin: 0 10px 0 10px;
+    padding: 0 ;
+    background-color: #fff;
+    height: 334px;
+}
+
+.works-img-coment{
+    font-size: 16px;
+    padding: 25px 20px;
+    background-color: #fff;
+}
+.works-btn{
+    display: flex;
+    justify-content: center;
+}
+
+.btn-text{
+    color: #171717;
+    background-color: #f7d43f;
+    padding: 19px 77px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 30px;
+    margin-top: 80px;
+}
+.works-btn-text:hover{
+    opacity: 0.7;
+    transition: 0.3s;
+}
+.works-end-title{
+    color: #fff;
+    font-size: 90px;
+    font-weight: bold;
+    opacity: 10%;
+    margin: 70px 0 0 119px ;
+}
+/* service */
+.service{
+    height: 661px;
+}
+.service-title{
+    font-size: 60px;
+    color: #282F35;
+    margin: 99px 0 83px 220px;
+    display: flex;
+    align-items: center;
+}
+.service-title::after{
+    border-top: 5px solid;
+    content: "";
+    width: 200px;
+    margin-left: 53px;
+}
+.service-contents{
+    /* background-color: blue; */
+    /* display: inline-block; */
+    /* width: 100%; */
+    padding: 0;
+    margin: 0;
+}
+.service-item{
+    color: #fff;
+    padding: 0;
+    font-size: 40px;
+    width: 480px;
+    height: 320px;
+    display: flex;
+    align-items: center;
+    justify-content: center;   
+    font-weight: bold;
+    font-style: italic;
+    font-family: Noto Serif;
+}
+.service-item:hover{
+    background-color:#282f35;
+    background-blend-mode:soft-light;
+}
+
+.service-hearing{
+    background-image: url("../images/service-img01@2x.jpg");
+}
+
+.service-planning{
+    background-image: url("../images/service-img02@2x.jpg");
+}
+.service-direction{
+    background-image: url("../images/sevice-img03@2x.jpg");
+}
+.end-service-title{
+    font-size: 90px;
+    font-weight: bold;
+    font-family: Noto Serif;
+    color: #171717;
+    opacity: 5%;
+    float: right;
+    margin: 70px 120px 0 0;
+}
+.contact{
+    background-image: url("../images/contact-bgi@2x.jpg");
+    height: 666px;
+    margin-top: 70px;
+    color: #fff;
+    font-family: Noto Serif;
+}
+.contact-title{
+    font-size: 60px;
+    font-weight: bold;
+    font-style: italic;
+    float: right;
+    margin-top: 109px;
+    margin-bottom: 80px;
+    display: flex;
+    align-items: center;
+}
+.contact-title::after{
+    border-top: 5px solid;
+    content: "";
+    width: 200px;
+    margin:0 120px 0 31px;
+}
+.contact-text{
+    clear: both;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Noto Serif JP;
+    text-align: center;
+    margin-top: 80px;
+}
+.contact-btn{
+    text-align: center;
+    margin-top: 40px;
+}
+
+.contact-btn-text{
+    color: #171717;
+    background-color: #f7d43f;
+    padding: 19px 84px 18px 84px;
+    border-radius: 30px;
+}
+.contact-btn-text:hover{
+    opacity: 0.7;
+    transition: 0.3s;
+}
+.end-contact-title{
+    font-size: 90px;
+    font-family: Noto Serif JP;
+    font-weight: bold;
+    opacity: 5%;
+    margin: 70px 0 0 120px;
+}
+.footer-text{
+    margin: 30px 0;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+}
+@media screen and (max-width:1019px){
+    .first-view{
+        margin-top: 136px;
+    }
+    .fv-title{
+        margin-bottom: 53px;
+    }
+    .header-nav{
+        display: none;
+    }
+    
+    /* concept */
+    .concept-content {
+        width: 0 auto;
+    }
+    .concept-content .coment{
+        margin: 107px 0 0 0;
+    }
+}
